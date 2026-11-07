@@ -138,6 +138,8 @@ with st.container(border=True):
 
 msg = EmailMessage()
 msg["Subject"] = f"Daily Report on the GAS Tickets Status of {rep_date.strftime('%d/%m/%Y')} -  {shift} Shift"
+msg["To"] = "AslamNafees.Salaam@franklintempleton.com, aslamnafeesmy.abdul@hcltech.com
+msg["Cc"] = "IntegratedUtilityTeamEDA&GAS@franklintempleton.com"
 msg["X-Unsent"] = "1"
 msg.set_content("Please view this email in HTML.")
 msg.add_alternative(html, subtype="html")
