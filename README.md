@@ -65,7 +65,6 @@ The app will open in your browser and you can start uploading files.
 Ticket_count_mail/
 ├── app.py
 ├── README.md
-└── your_ticket_file.csv or .xlsx
 ```
 
 ## Notes
